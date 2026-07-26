@@ -1,23 +1,97 @@
 aid: equipe-communications
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/equipe-communications.png
 name: Equipe Communications
-description: Equipe Communications is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Équipe Communications Corporation was an Acton, Massachusetts telecommunications
+  equipment startup established in 1999 by a group of telecom industry veterans. It designed,
+  manufactured, and sold data network switching equipment for large-scale facilities-based carriers
+  and service providers — Incumbent Local Exchange Carriers (ILECs), Inter Exchange Carriers (IXCs),
+  and international carriers. Its product line comprised the Équipe 3200 Multiservice ATM/MPLS Core
+  Data Switch, Évail System Software, ÉvailNet Manager, and Élite LifeCycle service and support. The
+  positioning was to let carriers scale an existing ATM core network while offering a gradual,
+  low-risk transition path to MPLS. The company raised a $40 million third round in March 2002, was
+  awarded the first of 74 patents in February 2002, earned ISO 9001:2000 certification from TÜV
+  Management Service in February 2002, signed a sales agent/reseller agreement with Ciena in June 2002
+  and a services master agreement with Fujitsu in August 2002, and achieved NEBS certification for the
+  É3200 in January 2003. Équipe was a carrier-hardware vendor of the pre-API era: it never published a
+  public API, developer portal, SDK, or machine-readable interface. This profile is retained as a
+  historical record of the Battery Ventures portfolio and is not an active API provider. NOTE:
+  unrelated to equipe.com, a Swedish equestrian show-management software company (see
+  x-disambiguation).'
 url: https://raw.githubusercontent.com/api-evangelist/equipe-communications/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: historical
+x-tier-reason: defunct-pre-api-era-hardware-vendor-no-api-surface
+x-status: defunct
+x-status-basis: 'Corporate site www.equipecommunications.com stops in the Internet Archive at
+  2004-06-12; the latest archived press release is 2003-01-07. As of 2026-07-20 neither
+  equipecommunications.com nor equipecom.com resolves in DNS (no A or NS records), and no GitHub
+  organization exists (api.github.com/orgs/equipe-communications and /equipecommunications both
+  HTTP 404). No acquisition or wind-down record was verified during this pass — the company is
+  recorded as defunct on the evidence above, and no acquirer is asserted.'
+x-founded: 1999
+x-headquarters: 100 Nagog Park, Acton, MA 01720, United States
+x-former-domains:
+- equipecom.com
+- equipecommunications.com
+x-products:
+- Équipe 3200 Multiservice ATM/MPLS Core Data Switch
+- Évail System Software
+- ÉvailNet Manager
+- Élite LifeCycle Service and Support
+x-disambiguation:
+- name: Equipe AB
+  url: https://equipe.com/
+  relationship: unrelated-name-collision
+  note: 'Swedish cloud-based equestrian show-management software company (competition management,
+    live scoring, results). It does publish a developer surface (api-docs.equipe.com,
+    docs.equipe.com, github.com/equipe, status.equipe.com, changelog.equipe.com), but it is an
+    entirely different company from the Acton, MA telecom equipment vendor profiled here and must
+    not be conflated with it or used to populate this profile.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Telecommunications
+- Networking Equipment
+- ATM
+- MPLS
+- Carrier Networks
+- Hardtech
+- Historical
+- Defunct
 apis: []
+common:
+- type: Archive
+  name: Équipe Communications corporate site (Internet Archive, 2004-06-12)
+  url: http://web.archive.org/web/20040612233110/http://www.equipecommunications.com/
+- type: Archive
+  name: Équipe Communications press release index (Internet Archive)
+  url: http://web.archive.org/web/20040612233110/http://www.equipecommunications.com/pressrel.html
+- type: Investor
+  name: Battery Ventures
+  url: https://www.battery.com/list-of-all-companies/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
