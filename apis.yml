@@ -61,7 +61,7 @@ x-disambiguation:
     docs.equipe.com, github.com/equipe, status.equipe.com, changelog.equipe.com), but it is an
     entirely different company from the Acton, MA telecom equipment vendor profiled here and must
     not be conflated with it or used to populate this profile.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
